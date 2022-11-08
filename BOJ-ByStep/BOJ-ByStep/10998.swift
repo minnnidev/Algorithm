@@ -5,6 +5,8 @@
 //  Created by 김민 on 2022/11/08.
 //
 
+//백준 10998
+
 let line = readLine()!
 let lineArr = line.split(separator: " ")
 
