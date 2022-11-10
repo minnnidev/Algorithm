@@ -69,6 +69,14 @@
 		AB4D7E8D2919E00F00A7D14D /* BOJ-ByStep */ = {
 			isa = PBXGroup;
 			children = (
+				ABF242F1291D48670004DA16 /* Level1 */,
+			);
+			path = "BOJ-ByStep";
+			sourceTree = "<group>";
+		};
+		ABF242F1291D48670004DA16 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
 				AB4D7E972919E1C000A7D14D /* 1000.swift */,
 				AB4D7E992919F87600A7D14D /* 1001.swift */,
 				AB4D7E9B2919F97800A7D14D /* 10998.swift */,
@@ -83,7 +91,7 @@
 				ABA4E82E291D086F00D2FAD1 /* 10172.swift */,
 				ABF242EF291D469F0004DA16 /* 25083.swift */,
 			);
-			path = "BOJ-ByStep";
+			path = Level1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
