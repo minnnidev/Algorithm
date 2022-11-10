@@ -70,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				ABF242F1291D48670004DA16 /* Level1 */,
+				ABF242F2291D49190004DA16 /* Level2 */,
 			);
 			path = "BOJ-ByStep";
 			sourceTree = "<group>";
@@ -92,6 +93,13 @@
 				ABF242EF291D469F0004DA16 /* 25083.swift */,
 			);
 			path = Level1;
+			sourceTree = "<group>";
+		};
+		ABF242F2291D49190004DA16 /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Level2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
