@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB4D7EA02919FB0400A7D14D /* 10869.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D7E9F2919FB0400A7D14D /* 10869.swift */; };
+		AB4D7EA22919FB6B00A7D14D /* 10926.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4D7EA12919FB6B00A7D14D /* 10926.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		AB4D7E9B2919F97800A7D14D /* 10998.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10998.swift; sourceTree = "<group>"; };
 		AB4D7E9D2919F9D600A7D14D /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
 		AB4D7E9F2919FB0400A7D14D /* 10869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10869.swift; sourceTree = "<group>"; };
+		AB4D7EA12919FB6B00A7D14D /* 10926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10926.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				AB4D7E9B2919F97800A7D14D /* 10998.swift */,
 				AB4D7E9D2919F9D600A7D14D /* 1008.swift */,
 				AB4D7E9F2919FB0400A7D14D /* 10869.swift */,
+				AB4D7EA12919FB6B00A7D14D /* 10926.swift */,
 			);
 			path = "BOJ-ByStep";
 			sourceTree = "<group>";
@@ -128,7 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB4D7EA02919FB0400A7D14D /* 10869.swift in Sources */,
+				AB4D7EA22919FB6B00A7D14D /* 10926.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
