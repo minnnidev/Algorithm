@@ -15,5 +15,4 @@ let B = time[1]
 let tmpHour = (B + C) / 60
 let tmpMinute = (B + C) % 60
 
-A+tmpHour >= 24 ? print(A+tmpHour-24, terminator: " ") : print(A+tmpHour, terminator: " ")
-B+C >= 60 ? print((B + C) % 60) : print(B+C)
+A+tmpHour >= 24 ? print(A+tmpHour-24, tmpMinute) : print(A+tmpHour, tmpMinute)

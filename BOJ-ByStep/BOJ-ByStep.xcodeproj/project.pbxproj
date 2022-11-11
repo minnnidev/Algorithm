@@ -6,10 +6,6 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		ABF24302291E35190004DA16 /* 2480.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF24301291E35190004DA16 /* 2480.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		AB4D7E892919E00F00A7D14D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -175,7 +171,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF24302291E35190004DA16 /* 2480.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
