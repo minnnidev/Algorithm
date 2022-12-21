@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AB7A1ABB2952C07E00BCE327 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A1AB62952C02C00BCE327 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		AB4D7E892919E00F00A7D14D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -26,6 +30,7 @@
 		AB4D7E9D2919F9D600A7D14D /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
 		AB4D7E9F2919FB0400A7D14D /* 10869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10869.swift; sourceTree = "<group>"; };
 		AB4D7EA12919FB6B00A7D14D /* 10926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10926.swift; sourceTree = "<group>"; };
+		AB7A1AB62952C02C00BCE327 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABA4E820291CAEE800D2FAD1 /* 18108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18108.swift; sourceTree = "<group>"; };
 		ABA4E822291CAFC600D2FAD1 /* 3003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3003.swift; sourceTree = "<group>"; };
 		ABA4E824291CB9E400D2FAD1 /* 10430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10430.swift; sourceTree = "<group>"; };
@@ -74,8 +79,17 @@
 			children = (
 				ABF242F1291D48670004DA16 /* Level1 */,
 				ABF242F2291D49190004DA16 /* Level2 */,
+				AB7A1AB52952C01500BCE327 /* Level3 */,
 			);
 			path = "BOJ-ByStep";
+			sourceTree = "<group>";
+		};
+		AB7A1AB52952C01500BCE327 /* Level3 */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A1AB62952C02C00BCE327 /* main.swift */,
+			);
+			path = Level3;
 			sourceTree = "<group>";
 		};
 		ABF242F1291D48670004DA16 /* Level1 */ = {
@@ -171,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7A1ABB2952C07E00BCE327 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
