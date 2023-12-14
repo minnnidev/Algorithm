@@ -8,7 +8,7 @@
 
 </br>
 
-## 📚 Problem Solving ver. 1 (2023.12.09 ~ )
+## 📖 Problem Solving ver. 1 (2023.12.09 ~ )
 1. 이코테 책을 통한 알고리즘 이론 이해
 2. 이코테 책의 연습 문제 풀이
 3. 해당 주제의 알고리즘 문제 풀이 (최소 20문제, 문제 구성은 아래와 같음)
@@ -30,4 +30,5 @@
 
 ## 💡 Archive
 
-[📚 Wiki](https://picturesque-egret-903.notion.site/Algorithm-5136a1067c8746398801ad7fb8385404?pvs=4)
+[📚 Algorithm Wiki](https://picturesque-egret-903.notion.site/Algorithm-5136a1067c8746398801ad7fb8385404?pvs=4) </br>
+[🐳 Swift Algorithm Tip](https://picturesque-egret-903.notion.site/1acb4e5bb438455fa1c4a444f959ebae?v=b6a65908e8754ae185969e7cba7761eb&pvs=4)
