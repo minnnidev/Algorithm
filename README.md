@@ -29,5 +29,5 @@
 </br>
 
 ## 💡 Archive
-### 이것이 코딩태스트다
-1. [Greedy](https://picturesque-egret-903.notion.site/f25f5b8cab104658b2f4f059ddf9e848?pvs=4)
+
+[📚 Wiki](https://picturesque-egret-903.notion.site/Algorithm-5136a1067c8746398801ad7fb8385404?pvs=4)
