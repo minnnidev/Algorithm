@@ -35,14 +35,21 @@ func bfs() {
         index += 1
 
         [x-1, x+1, x*2].forEach {
+            /*
+             범위 내에 있고, 방문하지 않았다면 시간 갱신
+             이미 방문했다면, 그게 최소 방문 시간임
+             */
             if 0..<100001 ~= $0 && distance[$0] == -1 {
                 distance[$0] = distance[x] + 1
                 q.append($0)
             }
         }
+
+        // 동생이 있는 곳에 도달했을 때 함수 리턴
         if distance[K] != -1 { return }
     }
 }
 
 bfs()
 print(distance[K])
+
