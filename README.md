@@ -22,8 +22,12 @@
 3. file name </br>
      `[플랫폼 문제 번호(optional)] 문제명`
 4. commit message </br>
-      `[Solved/Update] 문제명`
-6. 파일 내에 플랫폼, 문제 번호, 문제명, 링크, 해당 문제 풀이 작성할 것
+      `[Solve/Complete/Update] 문제명`
+5. prefix </br>
+   `Solve` - 한번에 푼 문제 </br>
+   `Complete` - 풀이를 보고 이해한 문제 </br>
+   `Update` - 풀이 수정 </br>
+7. 파일 내에 플랫폼, 문제 번호, 문제명, 링크, 해당 문제 풀이 작성할 것
 
 </br>
 
