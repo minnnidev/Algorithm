@@ -20,7 +20,6 @@
 let line = readLine()!.split(separator: " ").map { Int($0)! }
 let (n, m) = (line[0], line[1])
 var result = ""
-var isUsed = Array(repeating: false, count: n)
 var arr = Array(repeating: "", count: m)
 var matrix = readLine()!.split(separator: " ").map { Int($0)! }
 
