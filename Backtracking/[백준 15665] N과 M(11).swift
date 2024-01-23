@@ -20,7 +20,7 @@ var arr = Array(repeating: "", count: m)
 
 nums.sort() // 사전순 출력 위해 정렬
 
-// k개의 수를 선택한 상황에서 nums[k]를 정의하는 함수
+// k개의 수를 선택한 상황에서 arr[k]를 정의하는 함수
 func findSequence(_ k: Int) {
     if k == m { // m개를 뽑았다면 겨로가 저장 후 return
         result += arr.joined(separator: " ") + "\n"
