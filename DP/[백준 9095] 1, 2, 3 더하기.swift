@@ -34,3 +34,19 @@ for _ in 0..<t {
 
     print(d[n])
 }
+
+
+//let t = Int(readLine()!)!
+//var d = Array(repeating: 0, count: 12) // n의 최대는 10
+//d[1] = 1
+//d[2] = 2
+//d[3] = 4
+//
+//for i in 4..<11 {
+//    d[i] = d[i-1] + d[i-2] + d[i-3]
+//}
+//
+//for _ in 0..<t {
+//    let n = Int(readLine()!)!
+//    print(d[n])
+//}
