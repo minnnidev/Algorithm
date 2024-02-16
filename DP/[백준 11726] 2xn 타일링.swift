@@ -1,10 +1,10 @@
 //
-//  [백준 11726] 2xn 타일.swift
+//  [백준 11726] 2xn 타일링.swift
 //  Algorithm
 //
 //  Created by 김민 on 2/17/24.
 //
-// 백준 11726 2xn 타일 https://www.acmicpc.net/problem/11726
+// 백준 11726 2xn 타일링 https://www.acmicpc.net/problem/11726
 
 /*
 [📌 전략]
