@@ -1,5 +1,8 @@
 # Algorithm
 
+[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=swiswi9)](https://solved.ac/swiswi9)
+</br> 영차영차...🧗
+
 ## 🔗 Reference
 - 이것이 취업을 위한 코딩 테스트다 with Python
 - [바킹독의 실전 알고리즘](https://github.com/encrypted-def/basic-algo-lecture)
@@ -17,7 +20,7 @@
 </br>
 
 ## 📌 Description
-1. 풀이 언어는 `Swift` (추후 변동 가능성 있음)
+1. 풀이 언어는 `Swift`
 2. 하루에 최소 1문제
 3. file name </br>
      `[플랫폼 문제 번호(optional)] 문제명`
@@ -25,7 +28,7 @@
       `[Solve/Complete/Update] 문제명`
 5. prefix </br>
    `Solve` - 한번에 푼 문제 </br>
-   `Complete` - 풀이를 보고 이해한 문제 </br>
+   `Complete` - 댜른 풀이를 보고 이해한 문제 </br>
    `Update` - 풀이 수정 </br>
 7. 파일 내에 플랫폼, 문제 번호, 문제명, 링크, 해당 문제 풀이 작성할 것
 
