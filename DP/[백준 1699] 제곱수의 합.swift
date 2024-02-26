@@ -1,10 +1,10 @@
 //
-//  main.swift
+//  [백준 1699] 제곱수의 합.swift
 //  Algorithm
 //
 //  Created by 김민 on 2/26/24.
 //
-// 백준 제곱수의 합 1699 https://www.acmicpc.net/problem/1699
+// 백준 1699 제곱수의 합 https://www.acmicpc.net/problem/1699
 
 /*
 [📌 전략] [✅ 풀이]
