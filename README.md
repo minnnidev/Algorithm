@@ -30,8 +30,9 @@
       `[Solve/Complete/Update] 문제명`
 5. prefix </br>
    `Solve` - 한번에 푼 문제 </br>
-   `Complete` - 댜른 풀이를 보고 이해한 문제 </br>
+   `Complete` - 다른 풀이를 보고 이해한 문제 </br>
    `Update` - 풀이 수정 </br>
+   `Retry` - 다시 풀어보기 </br>
 7. 파일 내에 플랫폼, 문제 번호, 문제명, 링크, 해당 문제 풀이 작성할 것
 
 </br>
