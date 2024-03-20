@@ -1,58 +1,67 @@
 //
-//  main.swift
+//  [백준 2230] 수 고르기.swift
 //  Algorithm
 //
-//  Created by 김민 on 2023/09/17.
+//  Created by 김민 on 3/20/24.
 //
 // 백준 2230 수 고르기 https://www.acmicpc.net/problem/2230
 
-// 1. 기본 이중 for문으로 만들어 보기 -> 시간 복잡도가 O(n^2)라 시간 초과가 날 것
 /*
-알 수 있는 것
-1. i가 증가함에 따라 a[j] - a[i]가 m 이상이 되는 최초의 지점 j 또한 증가함
-2. 수열을 정렬하면, M 이상의 차이 중 가장 작은 경우를 뽑기 때문에 최초의 지점을 찾으면 그 뒤는 확인할 필요가 없음
+[📌 전략][✅ 풀이]
+ 차이가 m 이상인 두 수를 구하되, 차이가 가장 작은 경우를 찾는 문제
+ 투 포인터를 통해 풀이하였으며, 차이가 가장 적은 경우를 구하기 위해 정렬을 실시한다.
+ 초기 상태에는 모두 포인터 2개가 첫 번째 요소를 가리킨다.
+ 수의 차이가 m보다 작으면 en을 큰 수로 이동시켜가며 차이가 m보다 큰 경우를 찾아나간다.
+ 이 과정에서 발생한 차이에 대한 최솟값을 갱신한다.
+ 차이가 m보다 큰 경우가 발생하면, 바로 st를 오른쪽으로 이동시켜 st에 대한 차이를 탐색한다.
 */
+
 //let line = readLine()!.split(separator: " ").map { Int($0)! }
-//let (N, M) = (line[0], line[1]) // N: 수열 요소 개수 / M: 최소 차이
-//var nums = [Int]()
+//let (n, m) = (line[0], line[1])
+//var arr = [Int]()
 //
-//for _ in 0..<N {
-//    nums.append(Int(readLine()!)!)
+//for _ in 0..<n {
+//    arr.append(Int(readLine()!)!)
 //}
-//var answer = Int.max
-//for i in 0..<N {
-//    for j in i..<N {
-//        if nums[j] - nums[i] >= M {
-//            answer = min(answer, nums[j] - nums[i])
-//        }
+//
+//arr.sort()
+//
+//var st = 0
+//var en = 0
+//var min = Int.max
+//
+//while st <= en  && en < n {
+//    let sub = arr[en] - arr[st]
+//    if sub > m {
+//        st += 1
+//        if sub < min { min = sub }
+//    } else if sub < m {
+//        en += 1
+//    } else {
+//        min = m
+//        break
 //    }
 //}
 //
-//print(answer)
-
-// 2. 투포인터 이용하기
+//print(min)
 
 let line = readLine()!.split(separator: " ").map { Int($0)! }
-let (N, M) = (line[0], line[1]) // N: 수열 요소 개수 / M: 최소 차이
-var nums = [Int]()
+let (n, m) = (line[0], line[1])
+var arr = [Int]()
 
-for _ in 0..<N {
-    nums.append(Int(readLine()!)!)
+for _ in 0..<n {
+    arr.append(Int(readLine()!)!)
 }
 
-nums.sort(by: <)
+arr.sort()
 
-var start = 0
-var end = 0
-var diff = Int.max
+var en = 0
+var mn = Int.max
 
-while (start <= end && end < N) { // 범위를 만족할 때 순회
-    if nums[end] - nums[start] < M { // 차이가 M보다 작다면
-        end += 1 // end 포인터를 증가시킨다
-    } else { // 차이가 M보다 크거나 같다면
-        diff = min(diff, nums[end] - nums[start]) // 최소 차를 찾아 diff를 갱신한다
-        start += 1
-    }
+for st in 0..<n {
+    while (en < n && arr[en] - arr[st] < m) { en += 1 }
+    if en == n { break } // 증가시킨 n이 en이면 탈출
+    mn = min(mn, arr[en] - arr[st]) // 최소 차이 갱신
 }
 
-print(diff)
+print(mn)
