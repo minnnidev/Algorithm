@@ -13,22 +13,29 @@
 
 </br>
 
-## 📖 Problem Solving ver. 1 (2023.12.09 ~ )
+## 📖 Problem Solving ver. 1 (2023.12 ~ 2024. 10) ✅
+풀이 언어: `Swift`
+
 1. 바킹독 알고리즘 실전 강의 이론 정리
 2. 이코테 책 이론 정리 
 3. 해당 주제의 알고리즘 문제 풀이 
    - 바킹독 워크북 연습 문제, 기본 문제, 응용 문제 체크된 문제 우선
+
+## 📖 Problem Solving ver. 2 (2024. 11 ~)
+풀이 언어: `Python`
+
+1. 바킹독 워크북 알고리즘 문제 풀이 
+2. 프로그래머스 고득점 Kit
   
 </br>
 
 ## 📌 Description
-1. 풀이 언어는 `Swift`
-2. 하루에 최소 1문제
-3. file name </br>
+1. 하루에 최소 1문제
+2. file name </br>
      `[플랫폼 문제 번호(optional)] 문제명`
-4. commit message </br>
+3. commit message </br>
       `[Solve/Complete/Update] 문제명`
-5. prefix </br>
+4. prefix </br>
    `Solve` - 한번에 푼 문제 </br>
    `Complete` - 다른 풀이를 보고 이해한 문제 </br>
    `Update` - 풀이 수정 </br>
