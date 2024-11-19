@@ -49,4 +49,5 @@
 ## 💡 Archive
 
 [📚 Algorithm Wiki](https://picturesque-egret-903.notion.site/Algorithm-5136a1067c8746398801ad7fb8385404?pvs=4) </br>
-[🐳 Swift Algorithm Tip](https://picturesque-egret-903.notion.site/1acb4e5bb438455fa1c4a444f959ebae?v=b6a65908e8754ae185969e7cba7761eb&pvs=4)
+[🐳 Swift Algorithm Tip](https://picturesque-egret-903.notion.site/1acb4e5bb438455fa1c4a444f959ebae?v=b6a65908e8754ae185969e7cba7761eb&pvs=4) </br>
+[🔮 Python Skills](https://picturesque-egret-903.notion.site/Python-Skills-143b55155e6880458b4ae1fed283f392?pvs=4) 
